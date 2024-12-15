@@ -1,17 +1,17 @@
-name: "Sample React CI Pipeline"
+name: "Sample React CiCd Pipeline"
 
 on:
     push:
         branches:
-           - main
-           - master
+            - main
+            - master
 
 jobs:
-    build-and-test:
+    build_and_test:
         runs-on: ubuntu_latest
 
         steps:
             - name: "Setup Node js"
               uses: actions/setup-node@v4
               with:
-                node-version: "21"
+                node-version: '21'
