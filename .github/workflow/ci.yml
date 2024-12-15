@@ -1,0 +1,3 @@
+name: "Sample React CI Pipeline"
+
+on:
